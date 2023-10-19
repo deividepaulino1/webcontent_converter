@@ -25,7 +25,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
-    compileSdkVersion android.compileSdkVersion
+    compileSdkVersion flutter.compileSdkVersion // Defina a versão com base no Flutter
 
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
